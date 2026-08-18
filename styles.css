@@ -1,0 +1,39 @@
+body {
+    background-color: #F3F4F6;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #FFFFFF; 
+}
+
+.btn-enlace{
+    background-color: #2C3E50;
+    color: whitesmoke;
+}
+.btn-enlace:hover{
+    background-color: #1A252F;
+    color: whitesmoke;
+}
+
+/** Controla el tamaño, recorte uniforme y fondo de las imágenes */
+.card-img-top {
+    height: 180px;         
+    object-fit: contain;   
+    background-color: whitesmoke; 
+    padding: 10px;
+}
+
+/** Alinea los textos al inicio de la tarjeta y unifica el color de fondo */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: whitesmoke;
+}
+
+/** Justifica el texto para un acabado editorial más limpio */
+.card-text {
+    text-align: justify;
+    font-size: 0.9rem;
+}
